@@ -308,6 +308,8 @@ namespace adventure
                              "At the same time you feel vibrations in the ground and start to look around, " +
                              "you look to the right and to the left where you se a big minotaur\n" +
                              "just a couple of meters away rushing towards you.\n");
+            Console.ReadLine();
+            Console.Clear();
 
             if (Dodge(hero))
             {
